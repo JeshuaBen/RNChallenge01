@@ -50,11 +50,17 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     color: colors.gray100,
   },
-
   statusContainer: {
     width: "100%",
     marginTop: 30,
+    marginBottom: 20,
     flexDirection: "row",
     justifyContent: "space-between",
+  },
+  taskContainer: {
+    borderTopWidth: 1,
+    borderTopColor: colors.gray500,
+    borderStyle: "solid",
+    width: "100%",
   },
 });

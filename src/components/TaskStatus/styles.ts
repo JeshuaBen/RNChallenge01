@@ -2,11 +2,7 @@ import { StyleSheet } from "react-native";
 import { colors } from "../../global/theme";
 
 export const styles = StyleSheet.create({
-  container: {
-    flexDirection: "row",
-  },
   textStatus: {
-    fontWeight: "bold",
     fontSize: 14,
   },
 
@@ -18,8 +14,6 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     marginLeft: 8,
-  },
-  amountText: {
-    color: colors.gray200,
+    paddingHorizontal: 8,
   },
 });
